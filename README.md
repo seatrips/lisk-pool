@@ -136,7 +136,11 @@ npm run package
 ```
 
 **nodejs >= 6 is mandatory for running dpos-api-fallback!**
-
+```
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs 
+sudo apt-get install -y npm
+```
 Since this version is not yet the default, you should edit liskpool.py and set
 the variable ENABLE_VERSION_1 to true:
 
